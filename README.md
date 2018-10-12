@@ -12,11 +12,17 @@
 目录结构说明：
 
 business:业务相关
+
 commom:公用模块
+
 generator:代码生成模块
+
 repository:数据访问模块
+
 spider:爬虫模块
+
 web-support:web支持模块，控制器，过滤器等等
+
 web-view:视图模块
     
 
