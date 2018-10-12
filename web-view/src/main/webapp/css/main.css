@@ -1,0 +1,189 @@
+html , body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-family:Verdana, Arial,"微软雅黑","宋体";
+	font-size:12px;
+	background: #f0f0f0;
+	color:#000;
+}
+
+.cbg{
+	background: #f0f0f0;
+}
+
+
+.header{
+	background: #f9f3f3;
+	height: 40px;
+	line-height: 40px;
+}
+
+.header-container{
+	width: 980px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.clear-fix:after{
+	content: "";
+	clear: both;
+	width: 100%;
+	display: block;
+}
+
+
+
+.time{
+	float: left;
+	display: inline-block;
+}
+
+.login{
+	float: right;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.login a{
+	text-decoration: none;
+	color: #c00;
+	margin: 0 5px;
+	cursor: pointer;
+}
+
+.container{
+	width: 980px;
+	margin: 0 auto;
+}
+
+.page-header{
+	margin: 10px 0;
+}
+
+.page-header .logo{
+	float: left;
+	width: 80px;
+	height: 80px;
+	padding:20px 0px;
+}
+
+.logo img{
+	width: 100%;
+}
+
+.page-header .banner{
+	float: right;
+	display: block;
+	height: 120px;
+	width: 860px;
+	background: #0000cc url(../images/banner.jpg) no-repeat;
+}
+
+.page-header .banner p{
+	margin: 0px;
+	padding: 0px;
+	font-size:40px;
+	line-height: 120px;
+	color: #ffffff;
+	text-align: center;
+	letter-spacing: 10px;
+}
+
+ul{
+	vertical-align: top;
+	list-style: none;
+	display: inline-block;
+	margin: 0 ;
+	padding: 0;
+}
+
+.nav{
+	/*background-color:#E8E7E3; */
+	margin: 10px 0;
+	min-height: 40px;
+}
+
+.nav ul {
+	vertical-align: top;
+	list-style: none;
+	display: inline-block;
+	margin: 0 0 0 140px;
+	padding: 0px;
+
+}
+
+.nav ul li{
+	float: left;
+	height: 40px;
+	width:80px;
+	line-height:40px;
+}
+
+.nav ul li a{
+
+	text-decoration: none;
+	color: #777;
+	font-size: 16px;
+	font-weight: bold; 
+	cursor: pointer;
+
+}
+
+.section{
+
+	width: 100%;
+	border: none;
+	margin: 15px 0;
+	min-height: 40px;
+	background: #fff;
+}
+
+
+.sub-container{
+	text-align: center;
+
+}
+
+.footer{
+	margin: 5px 0;
+}
+
+.footer p{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	line-height: 30px;
+}
+
+.footer p a{
+
+
+}
+
+.red {
+	color: #f00;
+}
+
+.line{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 1px;
+	background: #c0c0c0;
+}
+
+.clear-margin {
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+.clear-padding {
+	padding: 0;
+}
