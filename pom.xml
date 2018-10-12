@@ -14,5 +14,6 @@
         <module>web-support</module>
         <module>web-view</module>
         <module>spider</module>
+        <module>generator</module>
     </modules>
 </project>
